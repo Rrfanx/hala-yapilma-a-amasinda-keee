@@ -1,0 +1,3 @@
+RewriteEngine	On
+RewriteRule	b/(.*)$	konu.php?a=$1	[QSA]
+Options -Indexes
